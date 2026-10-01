@@ -1,104 +1,93 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-  <meta charset="UTF-8">
-  <meta name="keywords" content="Fenntarthatóság, Iskola">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Döntések az iskolában</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döntések az iskolában</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="kontener">
-    <header class="lapfelso">
-      <div>
-        <h1>Döntések az iskolában</h1>
-        <p>Négy példa arra, hogyan kapcsolódnak össze a hatások.</p>
-      </div>
 
-      <p class="gyujto">4 döntés · 3 szempont</p>
-    </header>
+    <p class="jelveny">4 döntés · 3 szempont</p>
 
-    <section class="kartya" aria-label="Iskolai döntések és hatásaik">
-      <div class="tablegorgo">
+    <h1>Döntések az iskolában</h1>
+    <p>Négy példa arra, hogyan kapcsolódnak össze a hatások.</p>
+
+    <div class="doboz">
+        <p class="felirat">Iskolai döntések és lehetséges hatásaik</p>
+
         <table>
-          <caption>Iskolai döntések és lehetséges hatásaik</caption>
-
-          <thead>
             <tr>
-              <th class="oszlop">Iskolai döntés</th>
-              <th class="oszlop">Lehetséges<br>környezeti<br>hatás</th>
-              <th class="oszlop">Lehetséges<br>társadalmi<br>hatás</th>
-              <th class="oszlop">Lehetséges<br>gazdasági<br>hatás</th>
-              <th class="oszlop">Hogyan függnek össze?</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <th class="sor">
-                <p class="kategoria">01 / Víz</p>
-                Ivóvíz-utántöltés és saját kulacs
-              </th>
-              <td>Kevesebb egyszer használatos palackra lehet szükség.</td>
-              <td>Az ivóvíz könnyebben elérhető a diákoknak.</td>
-              <td>Az ivóvízpont kialakítása és fenntartása pénzbe kerül.</td>
-              <td>
-                <div class="kapcsolat">
-                  Ha sokan tudnak vizet tölteni, kevesebb palackot
-                  vásárolhatnak. Ehhez működő, karbantartott ivóvízpont kell.
-                </div>
-              </td>
+                <th>Iskolai döntés</th>
+                <th>Lehetséges<br>környezeti<br>hatás</th>
+                <th>Lehetséges<br>társadalmi<br>hatás</th>
+                <th>Lehetséges<br>gazdasági<br>hatás</th>
+                <th class="utolso">Hogyan függnek össze?</th>
             </tr>
 
             <tr>
-              <th class="sor">
-                <p class="ketegoria">02 / Udvar</p>
-                Árnyékot adó növények ültetése
-              </th>
-              <td class="helytarto">…</td>
-              <td class="helytarto">…</td>
-              <td class="helytarto">…</td>
-              <td><div class="connection placeholder">…</div></td>
+                <td>
+                    <small>01 / VÍZ</small><br>
+                    <b>Ivóvíz-utántöltés és saját kulacs</b>
+                </td>
+                <td>Kevesebb egyszer használatos palackra lehet szükség.</td>
+                <td>Az ivóvíz könnyebben elérhető a diákoknak.</td>
+                <td>Az ivóvízpont kialakítása és fenntartása pénzbe kerül.</td>
+                <td>
+                    <p class="kapcsolat">
+                        Ha sokan tudnak vizet tölteni, kevesebb palackot
+                        vásárolhatnak. Ehhez működő, karbantartott ivóvízpont kell.
+                    </p>
+                </td>
+            </tr>
+
+            <tr class="vilagos">
+                <td>
+                    <small>02 / UDVAR</small><br>
+                    <b>Árnyékot adó növények ültetése</b>
+                </td>
+                <td>Több zöldfelület és élőhely jöhet létre az udvaron.</td>
+                <td>A diákok hűvösebb, kellemesebb helyen pihenhetnek.</td>
+                <td>A növények beszerzése és gondozása pénzbe kerül.</td>
+                <td><p class="kapcsolat">A növények zöldebbé és kellemesebbé teszik az udvart, de rendszeres gondozást igényelnek.</p></td>
             </tr>
 
             <tr>
-              <th scope="sor">
-                <p class="ketegoria">03 / Közlekedés</p>
-                Biztonságos kerékpártároló
-              </th>
-              <td class="helytarto">…</td>
-              <td class="helytarto">…</td>
-              <td class="helytarto">…</td>
-              <td><div class="connection placeholder">…</div></td>
+                <td>
+                    <small>03 / KÖZLEKEDÉS</small><br>
+                    <b>Biztonságos kerékpártároló</b>
+                </td>
+                <td>Ha többen bicikliznek autózás helyett, csökkenhet a légszennyezés.</td>
+                <td>A diákok szívesebben járhatnak biciklivel, és többet mozoghatnak.</td>
+                <td>A tároló kialakítása pénzbe kerül, de a biciklizés csökkentheti az utazási költségeket.</td>
+                <td><p class="kapcsolat">A biztonságos tároló ösztönözheti a biciklizést, ami a környezetnek és a diákoknak is előnyös lehet.</p></td>
             </tr>
 
-            <tr>
-              <th scope="sor">
-                <p class="kategoria">04 / Eszközök</p>
-                Számítógépek javítása csere előtt
-              </th>
-              <td class="helytarto">…</td>
-              <td class="helytarto">…</td>
-              <td class="helytarto">…</td>
-              <td><div class="connection placeholder">…</div></td>
+            <tr class="vilagos">
+                <td>
+                    <small>04 / ESZKÖZÖK</small><br>
+                    <b>Számítógépek javítása csere előtt</b>
+                </td>
+                <td>Kevesebb elektronikai hulladék keletkezhet, és kevesebb új eszközre lehet szükség.</td>
+                <td>A diákok tovább használhatják a megszokott gépeket a tanuláshoz.</td>
+                <td>A javítás olcsóbb lehet az új gépek vásárlásánál.</td>
+                <td><p class="kapcsolat">Ha a gépek javíthatók, tovább használhatók, így az iskola pénzt takaríthat meg és csökkentheti a hulladékot.</p></td>
             </tr>
-          </tbody>
         </table>
-      </div>
 
-      <p class="tablejegyzet">
-        Kedvező környezeti hatáshoz változtatásra is szükség lehet.
-        A sorok lehetséges hatásokat mutatnak, nem számszerű bizonyítékokat.
-      </p>
-    </section>
+        <p class="felirat">
+            Keskeny képernyőn a táblázat vízszintesen görgethető.
+            A sorok lehetséges hatásokat mutatnak, nem számszerű bizonyítékokat.
+        </p>
+    </div>
 
-    <footer class="alsofooter">
-      <p>Oktatási minta a 10. évfolyam HTML-táblázatos feladatához.</p>
-      <p>
-        Kiinduló olvasmány:
-        <p class="kod">Zöld Föld 9–10. tankönyv, 11–12. oldal.</p>
-      </p>
-    </footer>
-  </main>
+    <p class="forras">
+        Kiinduló olvasmány: <u>Zöld Föld 9–10. tankönyv, 11–12. oldal.</u>
+    </p>
+    <p class="labjegyzet">
+        Oktatási minta a 10. évfolyam HTML-táblázatos feladatához.
+    </p>
+
 </body>
 </html>
+
